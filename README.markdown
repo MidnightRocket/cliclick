@@ -1,6 +1,10 @@
 cliclick Overview
 =========================
+This forked version of cliclick, by [Carsten Blüm](https://github.com/BlueM/cliclick), support typing into a Linux Virtual Machine. 
+Unlike MacOS, Linux differentiates between left and right alt/option modifier key. The [original version](https://github.com/BlueM/cliclick) utilized the left alt-key as modifier key, when typing characters like `®¥πß©∞`, this does however not work when typing into a Linux VM. For typing special characters into Linux, the right alt-modifier-key, must be utilized. This forked version of [cliclick](https://github.com/BlueM/cliclick) changes the default alt-modifier-key to be the right alt-key, instead of the left alt-key, making it possible to do powerful automation with Linux Virtual Machines. 
 
+Original Readme content from [cliclick](https://github.com/BlueM/cliclick)
+===========================================
 cliclick (short for “Command Line Interface Click”) is a tool for executing mouse- and keyboard-related actions from the shell/Terminal. It is written in Objective-C and runs on OS X 10.9 or later.
 
 For more information or for downloading a compiled binary, please take a look at [cliclick’s homepage](https://www.bluem.net/jump/cliclick/)
