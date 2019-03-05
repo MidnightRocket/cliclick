@@ -36,7 +36,8 @@
     return [NSDictionary dictionaryWithObjectsAndKeys:
             @"59", @"ctrl",
             @"55", @"cmd",
-            @"58", @"alt",
+            @"58", @"lalt",
+            @"61", @"alt",
             @"56", @"shift",
             @"63", @"fn",
             nil];
